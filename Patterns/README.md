@@ -51,6 +51,6 @@
   - **qwerty**: No funciona, por lo que es como sino hubiera párametro y sin párametro es imposible el funcionamiento.
   - **pentagon**: Con este comando si funciona correctamente ya  que es un parametro válido; sin embargo se debe tener cuidado con las mayúsculas y minúsculas ya que si en nuetro código estuviera pentagon con p mayúscula el codigo no hubiera funcionado.
   - **Hexagon**:  Con este comando si funciona correctamente ya  que es un parámetro válido, sin embargo igual que en el caso anterior se deben de tener en cuenta las mayusculas y minusculas.
-## **PARA QUE SIRVE "GITIGNORE"**
+## **PARA QUÉ SIRVE "GITIGNORE"**
 El git ignore es un comando de git que se usa cuando queremos que un archivo específico sea ignorado porque no queremos hacerle un control de versiones, esto permite que al hacer git status no se nos muestre el archivo que queremos que ignore. El git ignore se queda como un archivo de texto en la raíz del proyecto.
 #
