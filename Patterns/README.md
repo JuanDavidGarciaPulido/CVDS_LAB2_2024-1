@@ -27,7 +27,9 @@
   mvn archetype:generate
 
   Usando los siguientes parámetros. 
-  <img width="493" alt="image" src="https://github.com/Hajaku12/-CVDS-LABORATORIO-2---PATTERNS/assets/62758651/c03efb9c-7f8b-4da5-a342-86ccca39e059">
+  ```
+  "-DgroupId=edu.eci.cvds" "-DartifactId=Patterns" "-DarchetypeGroupId=org.apache.maven.archetypes" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.0" "-DinteractiveMode=false" "-Dpackage=edu.eci.cvds.patterns.archetype"
+  ```
 
 ## **COMPILAR Y EJECTUAR**
 
@@ -51,8 +53,4 @@
   - **Hexagon**:  Con este comando si funciona correctamente ya  que es un parámetro válido, sin embargo igual que en el caso anterior se deben de tener en cuenta las mayusculas y minusculas.
 ## **PARA QUE SIRVE "GITIGNORE"**
 El git ignore es un comando de git que se usa cuando queremos que un archivo específico sea ignorado porque no queremos hacerle un control de versiones, esto permite que al hacer git status no se nos muestre el archivo que queremos que ignore. El git ignore se queda como un archivo de texto en la raíz del proyecto.
-## Bibliografia:
-- https://maven.apache.org/what-is-maven.html
-- https://www.mojohaus.org/exec-maven-plugin/usage.html
-- https://refactoring.guru/design-patterns/catalog
-- https://jenkov.com/tutorials/maven/maven-commands.html
+#
